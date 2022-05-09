@@ -1,22 +1,22 @@
 import { Wearable } from './Wearable'
 
 export let atari_launch: Wearable[] = [
-  // new Wearable(
-  //   'atari_blue_hat',
-  //   'Blue Atari Cap',
-  //   "Atari's signature logo on a blue cap.",
-  //   'hat',
-  //   'epic',
-  //   ['BaseMale', 'BaseFemale']
-  // ),
-  // new Wearable(
-  //   'atari_green_hat',
-  //   'Green Atari Cap',
-  //   "Atari's signature logo on a green cap.",
-  //   'hat',
-  //   'epic',
-  //   ['BaseMale', 'BaseFemale']
-  // ),
+  new Wearable(
+    'atari_blue_hat',
+    'Blue Atari Cap',
+    "Atari's signature logo on a blue cap.",
+    'hat',
+    'epic',
+    ['BaseMale', 'BaseFemale']
+  ),
+  new Wearable(
+    'atari_green_hat',
+    'Green Atari Cap',
+    "Atari's signature logo on a green cap.",
+    'hat',
+    'epic',
+    ['BaseMale', 'BaseFemale']
+  ),
   new Wearable(
     'atari_orange_hat',
     'Orange Atari Cap',
