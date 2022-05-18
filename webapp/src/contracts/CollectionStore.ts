@@ -113,9 +113,9 @@ export interface CollectionStoreDefinition {
   events: CollectionStoreEvents
   eventLogs: CollectionStoreEventLogs
 }
-export class CollectionStore extends Contract<CollectionStoreDefinition> {
-  constructor(eth: Eth, address?: Address, options?: ContractOptions) {
-    super(eth, abi, address, options)
-  }
-}
-export var CollectionStoreAbi = abi
+// export class CollectionStore extends Contract<CollectionStoreDefinition> {
+//   constructor(eth: Eth, address?: Address, options?: ContractOptions) {
+//     super(eth, abi, address, options)
+//   }
+// }
+// export var CollectionStoreAbi = abi
