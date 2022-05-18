@@ -97,25 +97,25 @@ interface CollectionStoreMethods {
     0: string
     1: Address
   }>
-  getNonce(user: Address): TxCall<string>
-  owner(): TxCall<Address>
-  renounceOwnership(): TxSend<CollectionStoreTransactionReceipt>
-  setFee(
-    _newFee: number | string | BN
-  ): TxSend<CollectionStoreTransactionReceipt>
-  setFeeOwner(_newFeeOwner: Address): TxSend<CollectionStoreTransactionReceipt>
-  transferOwnership(
-    newOwner: Address
-  ): TxSend<CollectionStoreTransactionReceipt>
-}
-export interface CollectionStoreDefinition {
-  methods: CollectionStoreMethods
-  events: CollectionStoreEvents
-  eventLogs: CollectionStoreEventLogs
-}
-export class CollectionStore extends Contract<CollectionStoreDefinition> {
-  constructor(eth: Eth, address?: Address, options?: ContractOptions) {
-    super(eth, abi, address, options)
-  }
-}
-export var CollectionStoreAbi = abi
+//   getNonce(user: Address): TxCall<string>
+//   owner(): TxCall<Address>
+//   renounceOwnership(): TxSend<CollectionStoreTransactionReceipt>
+//   setFee(
+//     _newFee: number | string | BN
+//   ): TxSend<CollectionStoreTransactionReceipt>
+//   setFeeOwner(_newFeeOwner: Address): TxSend<CollectionStoreTransactionReceipt>
+//   transferOwnership(
+//     newOwner: Address
+//   ): TxSend<CollectionStoreTransactionReceipt>
+// }
+// export interface CollectionStoreDefinition {
+//   methods: CollectionStoreMethods
+//   events: CollectionStoreEvents
+//   eventLogs: CollectionStoreEventLogs
+// }
+// export class CollectionStore extends Contract<CollectionStoreDefinition> {
+//   constructor(eth: Eth, address?: Address, options?: ContractOptions) {
+//     super(eth, abi, address, options)
+//   }
+// }
+// export var CollectionStoreAbi = abi
