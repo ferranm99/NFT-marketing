@@ -9,13 +9,13 @@ export function toMANA(num: number) {
 }
 
 export function fromMANA(mana: string) {
-  // const num = mana.split(/[,|.]/).join('')
+  const num = mana.split(/[,|.]/).join('')
 
-  // const result = parseInt(num, 10)
+  const result = parseInt(num, 10)
 
-  // if (isNaN(result) || result < 0) {
-  //   return 0
-  // }
+  if (isNaN(result) || result < 0) {
+    return 0
+  }
 
   return result
 }
