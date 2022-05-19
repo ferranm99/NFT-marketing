@@ -12,11 +12,11 @@ const locales: Record<string, Locale> = {
 
 export function formatDistanceToNow(
   date: number | Date,
-  options: {
-    includeSeconds?: boolean
-    addSuffix?: boolean
-    locale?: Locale
-  } = {}
+  // options: {
+  //   includeSeconds?: boolean
+  //   addSuffix?: boolean
+  //   locale?: Locale
+  // } = {}
 ) {
   const locale = locales[getCurrentLocale().locale]
 
