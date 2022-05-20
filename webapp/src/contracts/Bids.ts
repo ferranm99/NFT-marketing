@@ -10,15 +10,15 @@ import {
 } from 'web3x/contract'
 import { Eth } from 'web3x/eth'
 import abi from './BidsAbi'
-export type BidCreatedEvent = {
-  _id: string
-  _tokenAddress: Address
-  _tokenId: string
-  _bidder: Address
-  _price: string
-  _expiresAt: string
-  _fingerprint: string
-}
+// export type BidCreatedEvent = {
+//   _id: string
+//   _tokenAddress: Address
+//   _tokenId: string
+//   _bidder: Address
+//   _price: string
+//   _expiresAt: string
+//   _fingerprint: string
+// }
 export type BidAcceptedEvent = {
   _id: string
   _tokenAddress: Address
