@@ -43,16 +43,16 @@ export type PausedEvent = {
 export type UnpausedEvent = {
   account: Address
 }
-export type PauserAddedEvent = {
-  account: Address
-}
-export type PauserRemovedEvent = {
-  account: Address
-}
-export type OwnershipTransferredEvent = {
-  previousOwner: Address
-  newOwner: Address
-}
+// export type PauserAddedEvent = {
+//   account: Address
+// }
+// export type PauserRemovedEvent = {
+//   account: Address
+// }
+// export type OwnershipTransferredEvent = {
+//   previousOwner: Address
+//   newOwner: Address
+// }
 export interface BidCreatedEventLog
   extends EventLog<BidCreatedEvent, 'BidCreated'> {}
 export interface BidAcceptedEventLog
