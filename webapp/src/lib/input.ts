@@ -18,13 +18,13 @@ export const useInput = (
 
   // when value is changed from outside (controlled prop)
   // should update internal value and skip debounce
-  useEffect(() => {
-    if (value !== text) {
-      skip.current = true
-      setText(value)
-    }
-    // eslint-disable-next-line
-  }, [value])
+  // useEffect(() => {
+  //   if (value !== text) {
+  //     skip.current = true
+  //     setText(value)
+  //   }
+  //   // eslint-disable-next-line
+  // }, [value])
 
   // When internal value changes it
   // should start a debounced call to onChange
