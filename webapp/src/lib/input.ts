@@ -7,11 +7,11 @@ export const useInput = (
   onChange: (newValue: string) => void,
   ms = 500
 ) => {
-  const [text, setText] = useState(value)
-  const handleChange = useCallback(
-    (event: React.ChangeEvent<HTMLInputElement>) => setText(event.target.value),
-    [setText]
-  )
+  // const [text, setText] = useState(value)
+  // const handleChange = useCallback(
+  //   (event: React.ChangeEvent<HTMLInputElement>) => setText(event.target.value),
+  //   [setText]
+  // )
 
   // flag to skip debounce
   let skip = useRef(false)
